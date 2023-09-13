@@ -1,9 +1,9 @@
 ---
-title: Welcome Guest documentation
+title: Welcome to Guest documentation
 description: Get access to our documentation
 template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: Access all the information you need to get started with Guest
   image:
     file: ../../assets/GUEST_logo_big.png
   actions:
@@ -16,21 +16,20 @@ hero:
       icon: external
 ---
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
+import { Card, LinkCard, CardGrid} from '@astrojs/starlight/components';
 
 ## Next steps
 
-<CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
-	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Learn more about Guest" icon="open-book">
-		Learn more in the [Guest website](https://www.guest-hotelsoftware.com/).
-	</Card>
-</CardGrid>
+
+<LinkCard
+	title="Acces the GuestAPI Swagger UI"
+	description="Our Guest API is build and documented with Swagger."
+	icon="open-book"
+	href="/swagger/index"
+/>
+
+
+<Card title="Learn more about Guest" icon="open-book">
+	Learn more in the [Guest website](https://www.guest-hotelsoftware.com/).
+</Card>
+

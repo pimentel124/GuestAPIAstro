@@ -1,11 +1,9 @@
 ---
-title: GuestAPI v1
+title: GuestAPI v2
 description: GuestAPI documentation
-tableOfContents:
-  minHeadingLevel: 1
-  maxHeadingLevel: 2
 ---
 
+<!-- Generator: Widdershins v4.0.1 -->
 
 <h1 id="guestapi">GuestAPI v1</h1>
 

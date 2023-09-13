@@ -7,7 +7,7 @@ export default defineConfig({
 		starlight({
 			title: 'Guest Documentation',
 			logo: {
-				src: './src/assets/favicon.ico',
+				src: './src/assets/favicon.svg',
 			},
 			customCss: [
 				// Relative path to your custom CSS file
@@ -17,10 +17,7 @@ export default defineConfig({
 			sidebar: [
 				{
 					label: 'Guides',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', link: '/guides/example/' },
-					],
+					autogenerate: { directory: 'guides' },
 				},
 				{
 					label: 'Reference',

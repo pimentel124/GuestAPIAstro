@@ -1,9 +1,6 @@
 ---
 title: GuestAPI v1
 description: GuestAPI documentation
-tableOfContents:
-  minHeadingLevel: 1
-  maxHeadingLevel: 2
 ---
 
 

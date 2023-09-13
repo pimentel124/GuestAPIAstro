@@ -1,11 +1,18 @@
 ---
 title: GuestAPI v1
-description: GuestAPI documentation
-tableOfContents:
-  minHeadingLevel: 1
-  maxHeadingLevel: 2
+language_tabs:
+  - shell: curl
+language_clients:
+  - shell: ""
+toc_footers: []
+includes: []
+search: false
+highlight_theme: darkula
+headingLevel: 4
+
 ---
 
+<!-- Generator: Widdershins v4.0.1 -->
 
 <h1 id="guestapi">GuestAPI v1</h1>
 

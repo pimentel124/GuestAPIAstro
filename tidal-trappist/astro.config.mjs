@@ -5,10 +5,15 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
-			social: {
-				github: 'https://github.com/withastro/starlight',
+			title: 'Guest Documentation',
+			logo: {
+				src: './src/assets/favicon.ico',
 			},
+			customCss: [
+				// Relative path to your custom CSS file
+				'./src/styles/custom.css',
+			],
+			description: 'Guest product line documentation',
 			sidebar: [
 				{
 					label: 'Guides',

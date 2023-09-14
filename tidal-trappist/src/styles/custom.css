@@ -33,3 +33,16 @@
 .sl-container:where(.astro-7nkwcw3z) {
     padding-right: 4rem;
 }
+
+body > div > header > div > site-search{
+	display: none;
+}
+
+body > div > header > div > div{
+	display: flex;
+	justify-content: flex-end;
+}
+
+body > div > header > div > div > starlight-theme-select{
+	align-items: right;
+}

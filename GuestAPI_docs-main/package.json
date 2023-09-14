@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "openapi-to-md": "^1.0.24",
-    "widdershins": "^4.0.1"
-  }
-}

@@ -1,1 +1,0 @@
-widdershins --search false --headings 4 --code false --language_tabs 'shell:curl' --httpsnippet false public/openapi3_0.json -o /src/content/docs/guides/guestapi.md

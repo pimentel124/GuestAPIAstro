@@ -1,6 +1,6 @@
 widdershins --search false --headings 4 --code false --language_tabs 'shell:curl' --httpsnippet false openapi3_0.json -o myOutput.md
 
-widdershins --search false --headings 4 --code false --language_tabs 'shell:curl' --httpsnippet false public/openapi3_0.json -o /src/content/docs/guides/guestapi.md
+widdershins --search false --headings 4 --code false --language_tabs 'shell:bash' --httpsnippet false src/assets/openapi3_0.json -o src/content/docs/guides/guestapi.md
 
 npx http-server dist/
 
